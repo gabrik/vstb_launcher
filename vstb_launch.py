@@ -81,15 +81,15 @@ if __name__ == '__main__':
     print("#####          vSTB Running        #####")
     print("########################################")
 
-    input("<<<< Press enter to stop the vSTB >>>>>")
+    input("<<<< Press enter to stop the vSTB  >>>>>")
 
-    print(">>>> Stopping Domains...           <<<<")
+    print(">>>> Stopping Domains...            <<<<")
     vstb.stop_domains()
-    print(">>>> [ DONE ] Stopping Domains     <<<<")
+    print(">>>> [ DONE ] Stopping Domains      <<<<")
 
-    print(">>>> Undefining Domains...         <<<<")
+    print(">>>> Undefining Domains...          <<<<")
     vstb.undefine_domains()
-    print(">>>> [ DONE ] Undefining Domains   <<<<")
+    print(">>>> [ DONE ] Undefining Domains    <<<<")
 
     print("########################################")
     print("#####          vSTB Stopped        #####")
