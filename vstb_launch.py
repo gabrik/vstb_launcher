@@ -69,11 +69,11 @@ if __name__ == '__main__':
     components = ['es','ea','cp','pa','dms','dmc','vdi']
     vstb = VSTB(images_path, components)
 
-    print(">>>> Defining Domains...  <<<<")
+    print(">>>> Defining Domains...        <<<<")
     vstb.define_domans()
     print(">>>> [ DONE ] Defining Domains  <<<<")
 
-    print(">>>> Starting Domains...  <<<<")
+    print(">>>> Starting Domains...        <<<<")
     vstb.launch_domains()
     print(">>>> [ DONE ] Starting Domains  <<<<")
 
@@ -83,13 +83,13 @@ if __name__ == '__main__':
 
     input("<<<< Press enter to stop the vSTB >>>>>")
 
-    print(">>>> Stopping Domains...  <<<<")
+    print(">>>> Stopping Domains...           <<<<")
     vstb.stop_domains()
-    print(">>>> [ DONE ] Stopping Domains  <<<<")
+    print(">>>> [ DONE ] Stopping Domains     <<<<")
 
-    print(">>>> Undefining Domains...  <<<<")
+    print(">>>> Undefining Domains...         <<<<")
     vstb.undefine_domains()
-    print(">>>> [ DONE ] Undefining Domains <<<<")
+    print(">>>> [ DONE ] Undefining Domains   <<<<")
 
     print("########################################")
     print("#####          vSTB Stopped        #####")
