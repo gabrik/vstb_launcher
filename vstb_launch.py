@@ -81,7 +81,7 @@ if __name__ == '__main__':
     print("#####          vSTB Running        #####")
     print("########################################")
 
-    input("<<<< Press enter to stop the vSTB  >>>>>")
+    input("<<<< Press enter to stop the vSTB   >>>>")
 
     print(">>>> Stopping Domains...            <<<<")
     vstb.stop_domains()
