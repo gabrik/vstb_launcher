@@ -69,13 +69,13 @@ if __name__ == '__main__':
     components = ['es','ea','cp','pa','dms','dmc','vdi']
     vstb = VSTB(images_path, components)
 
-    print(">>>> Defining Domains...        <<<<")
+    print(">>>> Defining Domains...            <<<<")
     vstb.define_domans()
-    print(">>>> [ DONE ] Defining Domains  <<<<")
+    print(">>>> [ DONE ] Defining Domains      <<<<")
 
-    print(">>>> Starting Domains...        <<<<")
+    print(">>>> Starting Domains...            <<<<")
     vstb.launch_domains()
-    print(">>>> [ DONE ] Starting Domains  <<<<")
+    print(">>>> [ DONE ] Starting Domains      <<<<")
 
     print("########################################")
     print("#####          vSTB Running        #####")
